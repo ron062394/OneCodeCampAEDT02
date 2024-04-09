@@ -20,7 +20,7 @@ var styleElement = document.getElementsByTagName('span')[0]; // Assuming it's th
 console.log('Element to modify style:', styleElement);
 styleElement.style.backgroundColor = 'lightblue'; // Modify style
 
-
+!~``
 
 // Accessing first and last element child nodes
 const firstElementChild = document.getElementById('parent').firstElementChild;
