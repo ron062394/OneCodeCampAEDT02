@@ -38,16 +38,14 @@ colors.forEach(function(color){
     console.log(color);
 });
 
-
+// Optional 1
 // .indexof() to get the index number of a value inside an array
 console.log('Index of 3:', numbers.indexOf(5));
 
-
+// Optional 2
 // .includes() checks if the value is included in an array(will return either true or false)
 console.log('Includes 5', numbers.includes(10));
 
-// .join() use to join elements into a single string
-console.log('Joined array:', numbers.join('-'));
 
 // let numbers = [1, 2, 3, 4, 5];
 
