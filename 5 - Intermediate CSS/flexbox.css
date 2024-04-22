@@ -1,0 +1,39 @@
+.flexContainer {
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+     */
+}
+
+/* Flex Grow - Willingness to grow */
+.flexItem1 {
+    flex-grow: 1;
+}
+
+.flexItem2 {
+    flex-grow: 2;
+}
+
+.flexItem3 {
+    flex-grow: 0;
+}
+
+
+/* Flex Shrink - Willingness to shrink */
+.flexItem1 {
+    flex-shrink: 1;
+}
+
+.flexItem2 {
+    flex-shrink: 0;
+}
+
+.flexItem3 {
+    flex-shrink: 2;
+}
+
+
+
