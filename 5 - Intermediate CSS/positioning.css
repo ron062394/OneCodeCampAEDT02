@@ -1,0 +1,29 @@
+.relative {
+    background-color: burlywood;
+    position: relative ;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+}
+
+.absolute {
+    background-color: chocolate;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.fixed {
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.sticky {
+    background-color: cadetblue;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+}

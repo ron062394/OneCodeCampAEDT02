@@ -1,0 +1,58 @@
+/*
+.flexContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.flexContainer {
+    display: flex;
+
+}
+
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+*/
+
+.flexContainer {
+    display: flex;
+}
+
+/* Flex shrink - Willingness of an element to shrink */
+.flexItem1 {
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+
+.flexItem2 {
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+
+.flexItem3 {
+    flex-shrink: 2;
+    flex-basis: 300px;
+}
+
+
+/* Flex grow - Willingness to grow */
+/* 1/4 */
+.flexItem1 {
+    flex-grow: 1; 
+}
+
+/* 2/4 */
+.flexItem2 {
+    flex-grow: 2;
+
+}
+
+/* 1/4 */
+.flexItem3 {
+    flex-grow: 1;
+}
